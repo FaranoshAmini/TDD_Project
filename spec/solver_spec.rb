@@ -9,12 +9,11 @@ describe Solver do
     # The method called factorial takes one argument, an integer N, and returns the factorial for that number.
     it 'should return the factorial of a number' do
       expect(@solver.factorial(0)).to eql(1)
-      expect(@solver.factorial(2)).to eql(24)
+      expect(@solver.factorial(4)).to eql(24)
     end
 
     it 'should raise an exception if the number is negative' do
-      expect(@solver.factorial(-1)).to eql('-1 is not a positive number')
-      expect(@solver.factorial(-4).to(eql('-4 is not a positive number')))
+      expect { @solver.factorial(-1) }.to raise_error(StandardError)
     end
   end
 
