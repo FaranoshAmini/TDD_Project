@@ -52,7 +52,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Coming Soon
+> [Solver]
+  - factorial method
+  - reverse method
+  - fizzbuzz method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,6 +115,7 @@ To run tests, run the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="author"></a>
+In this project we implement a class with some methods using test-driven development (TDD).
 
 > I was the sole collaborator in this project.
 
