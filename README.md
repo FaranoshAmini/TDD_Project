@@ -35,6 +35,7 @@
 # 📖 TDD PROJECT <a name="about-project"></a>
 
 **TDD_Project** 
+> A ruby project with methods such as Factorial, ReverseString, FizzBuzz build on TDD approach
 
 
 ## 🛠 Built With <a name="built-with"></a>
